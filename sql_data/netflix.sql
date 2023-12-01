@@ -2,10 +2,15 @@ CREATE DATABASE netflix;
 
 CREATE TABLE content(
     id INT PRIMARY KEY,
-    title VARCHAR(100),
+    title VARCHAR(500),
     date_added DATE,
     rating VARCHAR(10),
     content_description TEXT
+);
+
+CREATE TABLE rating(
+    id INT PRIMARY KEY,
+    name VARCHAR(10)
 );
 
 CREATE TABLE director(
@@ -38,6 +43,14 @@ CREATE TABLE tv_show_duration(
     content_id INT,
     time_in_minutes INT,
     FOREIGN KEY (content_id) REFERENCES content(id)
+);
+
+CREATE TABLE content_rating(
+    content_id INT,
+    rating_id INT,
+    PRIMARY KEY (content_id, rating_id),
+    FOREIGN KEY (content_id) REFERENCES content(id),
+    FOREIGN KEY (rating_id) REFERENCES rating(id)
 );
 
 CREATE TABLE content_director(
