@@ -35,13 +35,13 @@ CREATE TABLE actor(
 
 CREATE TABLE movie_duration(
     content_id INT,
-    seasons INT,
+    time_in_minutes INT,
     FOREIGN KEY (content_id) REFERENCES content(id)
 );
 
 CREATE TABLE tv_show_duration(
     content_id INT,
-    time_in_minutes INT,
+    seasons INT,
     FOREIGN KEY (content_id) REFERENCES content(id)
 );
 
