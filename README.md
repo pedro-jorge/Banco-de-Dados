@@ -5,7 +5,7 @@ O conjunto de dados escolhido foi o [Netflix Movies and TV Shows](https://www.ka
 Os dados vêm na forma de uma grande tabela, a partir de um arquivo *.csv*, e as informações nela contidas são transformadas em um banco de dados relacional e posteriormente migradas para o MySQL.
 
 O modelo conceitual pode ser visto a seguir:
-![alt text](img/modelo_conceitual.png){width=5e0%}
+![alt text](img/modelo_conceitual.png){width=50%}
 
  Traduzindo para o modelo lógico:
  ![alt text](img/modelo_logico.png)
