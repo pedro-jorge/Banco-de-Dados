@@ -1,3 +1,6 @@
+-- FEITO COM O MYSQLDUMP
+-- APENAS EXPORTEI O MEU BANCO DE DADOS LOCAL
+
 -- MySQL dump 10.13  Distrib 8.0.35, for Linux (x86_64)
 --
 -- Host: localhost    Database: netflix
