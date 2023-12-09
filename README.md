@@ -1,4 +1,4 @@
-## Projeto final da disciplina de Banco de Dados
+## Projeto final da disciplina de Banco de Dados da UFRJ
 
 O conjunto de dados escolhido foi o [Netflix Movies and TV Shows](https://www.kaggle.com/datasets/shivamb/netflix-shows), um dataset que conta com mais de 8 mil filmes, séries e os demais tipos de mídia audiovisual disponível na Netflix.
 
